@@ -1,0 +1,27 @@
+{
+    "editor.rulers": [80],
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "editor.bracketPairColorization.enabled": false,
+    "workbench.startupEditor": "none",
+    "window.menuBarVisibility": "toggle",
+    "editor.stickyScroll.enabled": false,
+    "files.hotExit": "off",
+    "workbench.statusBar.visible": false,
+    "editor.guides.indentation": false,
+    "terminal.integrated.allowChords": false,
+    "editor.fontFamily": "Monoid, Hack, Consolas, 'Courier New', monospace",
+    "workbench.colorTheme": "Visual Studio Light",
+    "terminal.integrated.profiles.windows": {
+        "Powershell (VSCode)": {
+            "path": "powershell.exe",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "Set-PSReadLineKeyHandler -Chord 'Ctrl+w' -Function BackwardKillWord"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Powershell (VSCode)",
+    "terminal.integrated.defaultProfile.linux": "bash",
+}
