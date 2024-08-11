@@ -22,6 +22,15 @@
             ]
         }
     },
+    "terminal.integrated.profiles.linux": {
+        "pwsh": {
+            "path": "/opt/microsoft/powershell/7/pwsh",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "Set-PSReadLineKeyHandler -Chord 'Ctrl+w' -Function BackwardKillWord"
+            ]
+        }
+    },
     "terminal.integrated.defaultProfile.windows": "Powershell (VSCode)",
-    "terminal.integrated.defaultProfile.linux": "bash",
 }
