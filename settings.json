@@ -34,4 +34,5 @@
     },
     "terminal.integrated.defaultProfile.windows": "Powershell (VSCode)",
     "terminal.integrated.defaultProfile.linux": "bash",
+    "editor.find.autoFindInSelection": "multiline",
 }
