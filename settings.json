@@ -10,7 +10,7 @@
     "workbench.statusBar.visible": false,
     "editor.guides.indentation": false,
     "terminal.integrated.allowChords": false,
-    "editor.fontFamily": "Monoid, Hack, Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "'IBM Plex Mono', monospace",
     "workbench.colorTheme": "Visual Studio Light",
     "terminal.integrated.profiles.windows": {
         "Powershell (VSCode)": {
