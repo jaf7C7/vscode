@@ -1,17 +1,13 @@
 {
     "editor.rulers": [80],
     "editor.minimap.enabled": false,
-    "workbench.activityBar.location": "hidden",
     "editor.bracketPairColorization.enabled": false,
-    "workbench.startupEditor": "none",
-    "window.menuBarVisibility": "toggle",
     "editor.stickyScroll.enabled": false,
-    "files.hotExit": "off",
-    "workbench.statusBar.visible": false,
     "editor.guides.indentation": false,
-    "terminal.integrated.allowChords": false,
     "editor.fontFamily": "'IBM Plex Mono', monospace",
-    "workbench.colorTheme": "Visual Studio Light",
+    "editor.find.autoFindInSelection": "multiline",
+    "files.hotExit": "off",
+    "terminal.integrated.allowChords": false,
     "terminal.integrated.profiles.windows": {
         "Powershell (VSCode)": {
             "path": "powershell.exe",
@@ -34,5 +30,9 @@
     },
     "terminal.integrated.defaultProfile.windows": "Powershell (VSCode)",
     "terminal.integrated.defaultProfile.linux": "bash",
-    "editor.find.autoFindInSelection": "multiline",
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.statusBar.visible": false,
+    "workbench.startupEditor": "none",
+    "workbench.activityBar.location": "hidden",
+    "window.menuBarVisibility": "toggle",
 }
