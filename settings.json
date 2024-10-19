@@ -4,9 +4,11 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.stickyScroll.enabled": false,
     "editor.guides.indentation": false,
-    "editor.fontFamily": "'IBM Plex Mono', monospace",
+    "editor.fontFamily": "'DejaVu Sans Mono', 'IBM Plex Mono', monospace",
     "editor.find.autoFindInSelection": "multiline",
+    "editor.wordWrap": "on",
     "files.hotExit": "off",
+    "files.trimTrailingWhitespace": true ,
     "terminal.integrated.allowChords": false,
     "terminal.integrated.profiles.windows": {
         "Powershell (VSCode)": {
@@ -35,4 +37,5 @@
     "workbench.startupEditor": "none",
     "workbench.activityBar.location": "hidden",
     "window.menuBarVisibility": "toggle",
+    "breadcrumbs.enabled": false,
 }
